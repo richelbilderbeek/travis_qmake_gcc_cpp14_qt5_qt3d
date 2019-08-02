@@ -6,7 +6,7 @@ install:
   - sudo apt update -qq
   # C++14
   - lsb_release -a
-  - sudo add-apt-repository --yes ppa:beineri/opt-qt593-bionic
+  - sudo add-apt-repository --yes ppa:beineri/opt-qt-5.12.3-bionic
   - sudo apt-get update -qq
   # Qt5
   - sudo apt-get install -qq qt59declarative qt593d qt59quickcontrols qt59quickcontrols2 
